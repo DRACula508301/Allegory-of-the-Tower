@@ -9,6 +9,7 @@ public class RemovePillar : MonoBehaviour
     public float currentTime = 0.0f;
     public GameObject pillar;
     public GameObject collider;
+    public GameObject coffin;
 
     private void Start()
     {
@@ -24,6 +25,7 @@ public class RemovePillar : MonoBehaviour
         {
             Destroy(pillar);
             collider.GetComponent<BoxCollider>().enabled = true;
+            coffin.GetComponent<Outline>().enabled = true;
         }
     }
 }

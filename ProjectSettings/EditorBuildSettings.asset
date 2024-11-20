@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: d50e8b17e2a94a64f8e2b9b0c3d76a07
+  - enabled: 1
+    path: Assets/Scenes/Teleportation.unity
+    guid: 1bf4836dc27b69742a188b475ec4d5cc
+  - enabled: 1
+    path: Assets/Scenes/Outro.unity
+    guid: a85cbcb7925aea547aa1c828fd977633
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1b3cd173ba23b7340b7abbebfbfcadb9, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6ea2bbc368b4c594ab7310661a673ad1, type: 2}

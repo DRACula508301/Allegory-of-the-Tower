@@ -10,6 +10,7 @@ public class CoffinMove : MonoBehaviour
     public void moveCoffin()
 
     {
+        coffin.GetComponent<Outline>().enabled = false;
         Vector3 movedirection = new Vector3(0, 3, 0);
         Vector3 new_player_position = new Vector3(coffin.transform.position.x, coffin.transform.position.y, coffin.transform.position.z);
 
